@@ -1,0 +1,116 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contact List Styles */
+  
+  .contact-list {
+    margin: 20px;
+    padding: 0;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 0;
+  }
+
+  .contact-name {
+    font-weight: bold;
+    margin-left: 10px; 
+  }
+  
+  .contact-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .contact-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  
+  /* Contact Info Styles */
+
+  .contact-email,
+  .contact-phone {
+  display: block;
+  margin-top: 5px;
+  color: #555; 
+}
+  
+  .contact-info {
+    
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .contact-info label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .contact-info input[type="text"], .contact-info input[type="email"], .contact-info input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+  }
+  
+  .contact-info input[type="text"]:focus, .contact-info input[type="email"]:focus, .contact-info input[type="tel"]:focus {
+    border-color: #aaa; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Avatar Styles */
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Button Styles */
+  
+  .button {
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41; 
+  }
+  
+  .button:active {
+    background-color: #3e8e41; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+  }

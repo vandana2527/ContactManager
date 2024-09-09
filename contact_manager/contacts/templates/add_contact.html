@@ -1,0 +1,11 @@
+<!-- add_contact.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Add a new contact</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add contact</button>
+  </form>
+{% endblock %}
